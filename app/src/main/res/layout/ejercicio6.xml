@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LLV1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LLV2Trama"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@drawable/trama1"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLH1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/LLV3Botones"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorRosa"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Inicio"
+                style="@style/estiloBotonGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inicio" />
+
+            <Button
+                android:id="@+id/Continuar"
+                style="@style/estiloBotonGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continuar" />
+
+            <Button
+                android:id="@+id/Config"
+                style="@style/estiloBotonGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Config." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@drawable/chibisakura"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLV4Text+Boton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorCrema">
+
+            <TextView
+                android:id="@+id/Text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hola! Bienvenida"
+                style="@style/estiloTexto"/>
+
+            <TextView
+                android:id="@+id/Text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Melania Gallego"
+                style="@style/estiloTexto"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom">
+
+                <Button
+                    android:id="@+id/Salir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Salir"
+                    style="@style/estiloBotonGuardar"
+                    android:background="@color/colorFucsia"
+                    android:textColor="@color/colorBlanco"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
