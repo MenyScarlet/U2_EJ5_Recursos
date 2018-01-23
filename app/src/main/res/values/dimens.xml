@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingGeneral">25dp</dimen>
+    <dimen name="textSizeButton">20dp</dimen>
+
+
+</resources>
